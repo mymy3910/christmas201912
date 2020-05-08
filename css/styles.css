@@ -1,0 +1,51 @@
+html{
+  font-size:62.5%;
+}
+body{
+  margin:0;
+ font-size:1.6em;
+}
+.top{
+  position:relative;
+}
+
+.top p{
+position: absolute;
+color:white;
+font-family:'Sacramento', cursive;
+top:50%;
+left:50%;
+font-size:3em;
+}
+.top img{
+  width:100%;
+} 
+main{
+  margin-top:50px;
+  text-align:center;
+  color:darkgreen;
+}
+main img{
+  width:400px;
+  height: 400px;
+}
+main h1{
+  margin-bottom:0;
+}
+main h2{
+  margin:0;
+}
+.btn{
+  text-decoration: none;
+  background:red;
+  color:white;
+  display:block;
+  width:150px;
+  line-height: 45px;
+  font-weight:bold;
+  border-radius:4px;
+  margin:auto
+}
+.btn:hover{
+  opacity: 0.9;
+}

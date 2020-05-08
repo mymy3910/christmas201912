@@ -1,0 +1,91 @@
+html{
+  font-size:62.5%;
+}
+body{
+margin: 0;
+font-size:1.6em;
+}
+header{
+  background-color:crimson;
+  height:100px;
+  width:100%;
+}
+.menu{
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+  display:flex;
+}
+.menu ul{
+  padding-right:30px;
+  list-style:none;
+  color:white;
+}
+.menu img{
+ height:60px;
+ width:60px;
+ border-radius:50%;
+ margin-top:20px;
+ margin-bottom:20px;
+ margin-right:10px;
+}
+.btn{
+  text-decoration: none;
+  text-align:center;
+  background: white;
+  color:black;
+  height:60px;
+  width:60px;
+  border-radius:50%;
+  line-height: 60px;
+  font-weight:bold;
+  font-size:15px;
+  margin-top:20px;
+  margin-bottom:20px;
+  }
+
+main{
+  margin-left:20px;
+  margin-right:20px;
+  text-align: center;
+}
+main img{
+  width: 250px;
+  height: 250px;
+}
+.cart1{
+  display: flex;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 70%;
+}
+.cart1 ul{
+  list-style:none;
+ text-align: left;
+  padding-left:50px;
+  font-size:1.3em;
+}
+.cart1 ul p{
+  font-size:0.8em;
+  color:grey;
+}
+
+main ul{
+  list-style:none;
+  text-align:right;
+  padding-right:100px;
+  font-size:1.3em;
+}
+.btn2{
+  text-decoration: none;
+  background:red;
+  color:white;
+  display:block;
+  width:250px;
+  line-height: 45px;
+  font-weight:bold;
+  border-radius:4px;
+  margin:auto
+}
